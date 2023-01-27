@@ -1,4 +1,4 @@
-package com.improving.lib.bloom
+package io.github.improvingottawa.bloom
 
 import bloomfilter.CanGenerateHashFrom
 import org.scalatest.matchers.should.Matchers
