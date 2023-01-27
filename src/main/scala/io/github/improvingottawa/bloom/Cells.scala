@@ -1,4 +1,4 @@
-package com.improving.lib.bloom
+package io.github.improvingottawa.bloom
 
 class Cells(val count: Int, val cellSize: Int) {
   require(cellSize <= 8, "max cellSize is 8")

@@ -1,4 +1,4 @@
-package com.improving.lib.bloom
+package io.github.improvingottawa.bloom
 
 import org.scalatest.matchers.should.Matchers
 import org.scalatest.wordspec.AnyWordSpec
