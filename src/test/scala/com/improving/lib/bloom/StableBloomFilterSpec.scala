@@ -1,6 +1,5 @@
 package com.improving.lib.bloom
 
-import bloomfilter.CanGenerateHashFrom
 import org.scalatest.matchers.should.Matchers
 import org.scalatest.wordspec.AnyWordSpec
 

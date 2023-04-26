@@ -1,7 +1,5 @@
 package com.improving.lib.bloom
 
-import bloomfilter.CanGenerateHashFrom
-
 import scala.util.Random
 
 /** A Bloom filter is a space-efficient probabilistic data structure that is

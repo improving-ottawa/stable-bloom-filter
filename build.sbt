@@ -1,4 +1,4 @@
-import Dependencies._
+import Dependencies.*
 
 ThisBuild / scalaVersion     := "2.13.8"
 ThisBuild / version          := "0.1.0-SNAPSHOT"
@@ -25,7 +25,7 @@ ThisBuild / description := "An implementation of a Stable Bloom Filter for filte
 ThisBuild / licenses := List(
   "Apache 2" -> new URL("http://www.apache.org/licenses/LICENSE-2.0.txt")
 )
-ThisBuild / homepage := Some(url("https://github.com/example/project"))
+ThisBuild / homepage := Some(url("https://github.com/improving-ottawa/stable-bloom-filter"))
 
 ThisBuild / pomIncludeRepository := { _ => false }
 ThisBuild / publishTo := {
@@ -38,7 +38,5 @@ ThisBuild / publishMavenStyle := true
 lazy val root = (project in file("."))
   .settings(
     name := "stable-bloom-filter",
-    libraryDependencies ++= Seq(
-     bloomFilter,
-      scalaTest % Test)
+    libraryDependencies ++= Seq(scalaTest,scalaCheck)
   )
